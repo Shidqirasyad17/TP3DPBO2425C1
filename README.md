@@ -9,25 +9,25 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
 # Penjelasan Atribut Dan Method
 ## Class Orang
   Atribut : 
-  - Nama
-  - Usia
-  - Jenis Kelamin
+  - Nama -> Untuk Nama anggota keluarga
+  - Usia -> Untuk Usia anggota keluarga
+  - Jenis Kelamin -> Untuk Jenis Kelamin setiap keluarga (Perempuan/Laki-Laki)
 ## Class Ayah
   Atribut :
-  - Pekerjaan
-  - Pendidikan
+  - Pekerjaan -> Untuk Pekerjaan Ayah
+  - Pendidikan -> Untuk Pendidikan terakhir Ayah
 ## Class Ibu
   Atribut : 
-  - Pekerjaan
-  - Hobi
+  - Pekerjaan -> Untuk Pekerjaan Ibu
+  - Hobi -> Untuk Hobi Ibu
 ## Class Anak
   Atribut : 
-  - Sekolah 
-  - Cita Cita
+  - Sekolah -> Untuk Pendidikan Anak yang sedang ditempuh saat ini
+  - Cita Cita -> Untuk Cita cita anak
 ## Class Keluarga
   Atribut : 
-  - Nama Keluarga
-  - Alamat Rumah
+  - Nama Keluarga -> Untuk Nama keluarga
+  - Alamat Rumah -> Untuk Alamat Rumah keluarga
 
 # Penjelasan Desain Program
   ## Base Class 
