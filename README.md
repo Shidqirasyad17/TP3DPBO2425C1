@@ -65,8 +65,10 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
 # Dokumentasi 
   ## CPP
   <img width="1090" height="723" alt="image" src="https://github.com/user-attachments/assets/ceab5862-d0a0-4bd7-a270-fa30fceb190b" />
+  
   ## Python
   <img width="1340" height="817" alt="image" src="https://github.com/user-attachments/assets/7c4bdc62-616a-4bbf-901b-d1a996d27ef4" />
+  
   ## Java
   <img width="1653" height="729" alt="image" src="https://github.com/user-attachments/assets/dff66b09-447e-4587-a058-150c6546bbf7" />
 
