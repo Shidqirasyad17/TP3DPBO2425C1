@@ -12,31 +12,64 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
   - Nama -> Untuk Nama anggota keluarga
   - Usia -> Untuk Usia anggota keluarga
   - Jenis Kelamin -> Untuk Jenis Kelamin setiap keluarga (Perempuan/Laki-Laki)
+  Method :
+  - Getter dan setter untuk atribut
 ## Class Ayah
   Atribut :
   - Pekerjaan -> Untuk Pekerjaan Ayah
   - Pendidikan -> Untuk Pendidikan terakhir Ayah
+  Method :
+  - Getter dan setter untuk atribut
+  - printAyah -> menampilkan informasi/data ayah
 ## Class Ibu
   Atribut : 
   - Pekerjaan -> Untuk Pekerjaan Ibu
   - Hobi -> Untuk Hobi Ibu
+  Method :
+  - Getter dan setter untuk atribut
+  - printIbu - > menampilkan informasi/data ibu
 ## Class Anak
   Atribut : 
   - Sekolah -> Untuk Pendidikan Anak yang sedang ditempuh saat ini
   - Cita Cita -> Untuk Cita cita anak
+  Method :
+  - Getter dan setter untuk atribut
+  - printAnak - > menampilkan informasi/data anak
 ## Class Keluarga
   Atribut : 
   - Nama Keluarga -> Untuk Nama keluarga
   - Alamat Rumah -> Untuk Alamat Rumah keluarga
+  - Ayah -> objek Ayah
+  - Ibu -> objek Ibu
+  - anak -> array dari objek anak
+  Method :
+  - getter dan setter untuk atribut
+  - addAnak -> menambahkan anak ke keluarga
+  - print -> menampilkan semua data keluarga
 
 # Penjelasan Desain Program
   ## Base Class 
-  -  Class Orang ->  Karena menampung semua atribut yang dibutuhkan oleh Ayah, Ibu, Dan Anak
+  -  Class Orang -> Menampung semua atribut yang dibutuhkan oleh Ayah, Ibu, Dan Anak
   ## Inheritance Class 
-  - Class Ayah, Ibu, Dan Anak -> Karena semua class ini adalah Orang
+  - Class Ayah, Ibu, Dan Anak -> Semua class ini mewarisi atribut dari class Orang
   ## Composite Class
-  - Class Keluarga -> Karena Keluar memiliki anggota keluarga yaitu (Ayah, Ibu, Dan Anak)
+  - Class Keluarga -> memiliki anggota keluarga berupa (Ayah, Ibu, Dan Anak)
 
 # Penjelasan Alur Program
-  
+  1. Program membuat objek keluarga kosong untuk menampilkan data sebelum diisi
+  2. Program membuat objek keluarga baru dengan nama keluarga dan alamat rumah
+  3. Program membuat objek Ayah, Ibu, dan Anak dengan atribut masing-masing
+  4. Objek tersebut dimasukan ke dalam objek Keluarga menggunakan setter dan method addAnak()
+  5. Program memangil method print() pada Keluarga untuk menampilkan seluruh data keluarga
+
+# Dokumentasi 
+  ## CPP
+  <img width="1090" height="723" alt="image" src="https://github.com/user-attachments/assets/ceab5862-d0a0-4bd7-a270-fa30fceb190b" />
+  ## Python
+  <img width="1340" height="817" alt="image" src="https://github.com/user-attachments/assets/7c4bdc62-616a-4bbf-901b-d1a996d27ef4" />
+  ## Java
+  <img width="1653" height="729" alt="image" src="https://github.com/user-attachments/assets/dff66b09-447e-4587-a058-150c6546bbf7" />
+
+
+
 
