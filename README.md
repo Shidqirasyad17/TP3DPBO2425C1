@@ -51,6 +51,7 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
   ## Base Class 
   -  Class Orang -> Menampung semua atribut yang dibutuhkan oleh Ayah, Ibu, Dan Anak
   ## Inheritance Class 
+    Inheritance yang digunakan : Hierarchical Inheritance
   - Class Ayah, Ibu, Dan Anak -> Semua class ini mewarisi atribut dari class Orang
   ## Composite Class
   - Class Keluarga -> memiliki anggota keluarga berupa (Ayah, Ibu, Dan Anak)
