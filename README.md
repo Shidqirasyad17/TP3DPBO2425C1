@@ -39,9 +39,11 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
   Atribut : 
   - Nama Keluarga -> Untuk Nama keluarga
   - Alamat Rumah -> Untuk Alamat Rumah keluarga
-  - Ayah -> objek Ayah
-  - Ibu -> objek Ibu
-  - anak -> array dari objek anak
+  - Ayah -> objek Ayah karena hanya ada satu ayah dalam keluarga
+  - Ibu -> objek Ibu karena hanya ada satu ibu dalam keluarga
+  - Vector<Anak> anak -> karena jumlah anak bisa lebih dari satu
+  - bool adaAyah -> untuk penanda apakah data ayah sudah diisi atau belum
+  - bool adaIbu -> untuk penanda apakah data ibu sudah diisi atau belum
   Method :
   - getter dan setter untuk atribut
   - addAnak -> menambahkan anak ke keluarga
@@ -49,13 +51,15 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
 
 # Penjelasan Desain Program
   ## Base Class 
-  -  Class Orang -> Menampung semua atribut yang dibutuhkan oleh Ayah, Ibu, Dan Anak
-  ## Inheritance Class 
-    Inheritance yang digunakan : Hierarchical Inheritance
-  - Class Ayah, Ibu, Dan Anak -> Semua class ini mewarisi atribut dari class Orang
+  -  Class Orang -> Menampung semua atribut umum
+  -  jadi superclass untuk class Ayah, Ibu, dan Anak
+  ## Subclass(inheritance)
+  - Inheritance yang digunakan adalah Hierarchical Inheritance, karena terdapat satu super class     (Orang) yang diturunkan ke beberapa subclass
+  - Class Ayah, Ibu, Dan Anak -> Semua class ini mewarisi atribut dari class Orang dan setiap class juga memiliki atribut tambahan sesuai perannnya
   ## Composite Class
-  - Class Keluarga -> memiliki anggota keluarga berupa (Ayah, Ibu, Dan Anak)
-
+  - Class Keluarga ->  memiliki objek Ayah, Ibu, dan Anak. 
+  Hubungan ini merupakan composition karena Keluarga “has a” Ayah, Ibu, dan Anak 
+  yang menjadi bagian utuh dari Keluarga itu sendiri.
 # Penjelasan Alur Program
   1. Program membuat objek keluarga kosong untuk menampilkan data sebelum diisi
   2. Program membuat objek keluarga baru dengan nama keluarga dan alamat rumah
