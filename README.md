@@ -1,10 +1,10 @@
-# TP3DPBO2425C1
 
 # Janji
 Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kuliah DPBO untuk keberkahannya saya menyatakan bahwa saya tidak melakukan kecurangan sebagaimana yang dispesifikasikan.
 
 # Desain Diagram
 ![WhatsApp Image 2025-09-28 at 22 30 34_3f3ca605](https://github.com/user-attachments/assets/798555f5-556c-4279-8643-ca935f511f24)
+
 
 # Penjelasan Atribut Dan Method
 ## Class Orang
@@ -49,6 +49,7 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
   - addAnak -> menambahkan anak ke keluarga
   - print -> menampilkan semua data keluarga
 
+
 # Penjelasan Desain Program
   ## Base Class 
   -  Class Orang -> Menampung semua atribut umum
@@ -66,6 +67,7 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
   3. Program membuat objek Ayah, Ibu, dan Anak dengan atribut masing-masing
   4. Objek tersebut dimasukan ke dalam objek Keluarga menggunakan setter dan method addAnak()
   5. Program memangil method print() pada Keluarga untuk menampilkan seluruh data keluarga
+
 
 # Dokumentasi 
   ## CPP
