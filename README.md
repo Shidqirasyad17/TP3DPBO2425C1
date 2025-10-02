@@ -83,7 +83,7 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP3 pada mata kulia
 
 ## Composite Class
 - Class Keluarga -> memiliki objek Ayah, Ibu, dan Anak
-- Hubungan ini merupakan **composition** karena Keluarga “has a” Ayah, Ibu, dan Anak yang menjadi bagian utuh dari Keluarga itu sendiri
+- Hubungan ini merupakan composition karena Keluarga memilik Ayah, Ibu, dan Anak yang menjadi bagian utuh dari Keluarga itu sendiri
 
 ---
 
